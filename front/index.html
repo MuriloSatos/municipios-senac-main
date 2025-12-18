@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widthSUA_CHAVE_SECRETA_MUITO_FORTE_123456, initial-scale=1.0">
+    <title>Municípios</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Municípios (API)</h1>
+
+    <button id="btn">Carregar municípios</button>
+    <button id="btnadd">+</button>
+    <button id="btnmenos">-</button>
+
+
+    <h2>Novo Município</h2>
+
+    <div class="form">
+
+        <input type="hidden" id="campoID">
+
+        <input type="text" id="campoMunicipio" placeholder="Nome do município">
+        <input type="text" id="campoUF" placeholder="UF (ex: RS)">
+        <input type="text" id="campoCaracteristica" placeholder="Característica">
+
+        <button id="btnSalvar">Salvar</button>
+        <button id="btnAtualizar" style="display:none;">Atualizar</button>
+        <button id="btnCancelar" style="display:none;">Cancelar</button>
+    </div>
+
+    <h2>Lista de Municípios</h2>
+    <div id="listagem" class="container"></div>
+
+</body>
+
+</html>

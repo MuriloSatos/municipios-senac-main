@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f0f0f0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #025aa5;
+}
+
+.form {
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.form input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #999;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.btn-delete {
+    background-color: red;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+
+    /* Container vira coluna */
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Card ocupa a largura inteira */
+    .card {
+        width: 100%;
+        display: block;
+    }
+}
