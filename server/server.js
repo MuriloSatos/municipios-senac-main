@@ -28,6 +28,6 @@ app.get("/", (req, res) => {
 const PORT = process.env.PORT || 3000;
 
 
-app.listen(PORT,  () => {
+app.listen(PORT,"0.0.0.0",  () => {
   console.log("✅ Servidor rodando em http://127.0.0.1:3000");
 });
