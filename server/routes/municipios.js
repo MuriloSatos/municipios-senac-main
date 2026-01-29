@@ -58,7 +58,7 @@ router.post("/", async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: "Erro ao inserir município" });
   }
-});
+}); 
 
 router.put("/:id", async (req, res) => {
   try {
